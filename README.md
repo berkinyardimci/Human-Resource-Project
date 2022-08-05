@@ -12,11 +12,11 @@
 - IDE (IntelliJ IDEA)
 - Docker Desktop  
 
-### Requirements
--Java
--Spring Boot
--Docker (Dockerfile and Docker Compose)
--Swagger
+### Technologies
+- Java
+- Spring Boot
+- Docker (Dockerfile and Docker Compose)
+- Swagger  
 
 ### Architectures
 Layered Architecture
@@ -34,6 +34,5 @@ Layered Architecture
 ##### 7-Ready for Using the project
 - http://localhost:8080/swagger-ui.html#/
  
-
 ### Contact with me
 - berkinyardimci98@gmail.com
