@@ -19,7 +19,7 @@
 - Swagger  
 
 ### Architectures
-Layered Architecture
+- Layered Architecture  
 
 ### Stages
 ##### 1-Clone the project
