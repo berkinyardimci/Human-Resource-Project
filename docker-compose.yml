@@ -1,0 +1,25 @@
+version: '3.1'
+services:
+  backend:
+    container_name: spring_hrms_project_backend
+    image: berkinyardimci/hrms-project
+    build: ./
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "PostgreSQL"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://PostgreSQL:5432/human_resources
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: berkin2258
+      SPRING_JPA_HIBERNATE_DDL_AUTO: create
+
+  PostgreSQL:
+    container_name: postgres_db
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=berkin2258
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=human_resources
