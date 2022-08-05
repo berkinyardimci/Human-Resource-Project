@@ -2,3 +2,38 @@
 ![68747470733a2f2f696d672e736869656c64732e696f2f62616467652f737072696e672d2532333644423333462e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d737072696e67266c6f676f436f6c6f723d7768697465](https://user-images.githubusercontent.com/91574484/183223271-aaabe2e2-949c-4786-a58c-09c854bd0be7.svg)
 ![68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706f7374677265732d2532333331363139322e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d706f737467726573716c266c6f676f436f6c6f723d7768697465](https://user-images.githubusercontent.com/91574484/183223272-26186653-af11-4965-9e75-aa7aff822ce0.svg)
 ![68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f636b65722d2532333064623765642e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572266c6f676f436f6c6f723d7768697465](https://user-images.githubusercontent.com/91574484/183223275-be4285b4-6a22-42ef-99f7-681fa3e9bb62.svg)
+
+
+# Getting Started
+
+### Requirements
+- JDK(8)
+- PostgreSQL
+- IDE (IntelliJ IDEA)
+- Docker Desktop  
+
+### Requirements
+-Java
+-Spring Boot
+-Docker (Dockerfile and Docker Compose)
+-Swagger
+
+### Architectures
+Layered Architecture
+
+### Stages
+##### 1-Clone the project
+` git clone https://github.com/berkinyardimci/Human-Resource-Project.git `
+
+##### 2-Go inside the project file
+`cd hrms`
+
+##### 3- Run Command
+`docker-compose up -d`
+
+##### 7-Ready for Using the project
+- http://localhost:8080/swagger-ui.html#/
+ 
+
+### Contact with me
+- berkinyardimci98@gmail.com
